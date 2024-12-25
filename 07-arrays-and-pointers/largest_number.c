@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 // Function to find the largest number in an array
-int largest(int arr[], int size) {
-    int biggest = arr[0]; // Start with the first element
+int findMax(int arr[], int size) {
+    int largest = arr[0]; // Start with the first element
     for (int i = 1; i < size; i++) {
-        if (arr[i] > biggest) {
-            biggest = arr[i];
+        if (arr[i] > largest) {
+            largest = arr[i];
         }
     }
-    return biggest;
+    return largest;
 }
 
 int main(void) {
@@ -19,7 +19,7 @@ int main(void) {
     }
 
     int size = sizeof(nums) / sizeof(nums[0]);
-    int result = largest(nums, size);
+    int result = findMax(nums, size);
     printf("The largest number in the array is: %d\n", result);
     return 0;
 }
