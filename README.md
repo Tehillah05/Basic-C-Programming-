@@ -56,8 +56,8 @@ The repository contains various C programming tasks, each aimed at reinforcing d
 - **Task 1**: Basic input/output and arithmetic operations
 - **Task 2**: Control structures (if-else, switch-case, loops)
 - **Task 3**: Functions and parameter passing
-- **Task 4**: Arrays and strings
-- **Task 5**: Pointers and memory management
+- **Task 4**: Arrays and Pointers
+- **Task 5**: Strings and String Manipulation
 - **Task 6**: File I/O operations
 - **Task 7**: Structs and data organization
 - **Task 8**: Sorting and searching algorithms
